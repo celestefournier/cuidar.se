@@ -1,33 +1,164 @@
-.App {
-  text-align: center;
+/* Elementos básicos */
+
+body {
+  background-color: #FAFAFA;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  height: 56px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Customização Materialize */
+
+.z-depth-1,
+nav,
+.card-panel,
+.card, .toast,
+.btn,
+.btn-large,
+.btn-small,
+.btn-floating,
+.dropdown-content,
+.collapsible,
+.sidenav {
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.12), 0 4px 4px 0 rgba(0,0,0,0.12);
+}
+
+/* Card de Hábito */
+
+.card-habits {
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.card-habits:first-of-type {
+  margin-top: 30px;
+}
+
+.card-habits .card-content {
+  padding: 13px 15px;
+}
+
+.card-habits .card-title {
+  font-weight: normal;
+  font-size: 22px;
+  color: #696969;
+  margin-bottom: 12px;
+  line-height: normal !important;
+}
+
+.card-habits .days {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.card-habits .days:before {
+  content: '';
+  width: 85%;
+  height: 2px;
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #F4F4F4;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-habits input[type="checkbox"] {
+  display: none;
+}
+
+.card-habits .days .weekday {
+  display: block;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  height: auto;
+  padding: 0;
+}
+
+.card-habits .days label {
+  flex: 1;
+}
+
+.card-habits .days .weekday {
+  padding-top: 6px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.card-habits .days .weekday.today {
+  padding-top: 0px;
+}
+
+.card-habits .days input[type="checkbox"]:not(checked)+.weekday:before {
+  content: '';
+  display: block;
+  width: 26px;
+  height: 26px;
+  border: 2px solid #aaaaaa;
+  background: #ffffff;
+  margin: auto;
+  margin-bottom: 8px;
+  border-radius: 100%;
+  transition: 200ms;
+  position: relative;
+}
+
+.card-habits .days input[type="checkbox"]:checked+.weekday:before {
+  border: 13px solid #aaaaaa;
+  background: #ffffff;
+  transform: none;
+  width: 26px;
+  height: 26px;
+  top: 0;
+  left: 0;
+}
+
+.card-habits .days input[type="checkbox"]:not(checked)+.today:before {
+  width: 38px;
+  height: 38px;
+  margin-bottom: 2px;
+  border: 2px solid #aaaaaa;
+}
+
+.card-habits .days input[type="checkbox"]:checked+.today:before {
+  width: 38px;
+  height: 38px;
+  border: 19px solid #9AE345;
+}
+
+.card-habits .days input[type="checkbox"]:not(checked)+.weekday:after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%) rotateZ(-37deg);
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  margin: auto;
+  margin-bottom: 14px;
+  transition: 200ms;
+}
+
+.card-habits .days input[type="checkbox"]:checked+.weekday:after {
+  width: 11px;
+  height: 7px;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%) rotateZ(-37deg);
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+.card-habits .days input[type="checkbox"]:not(checked)+.today:after {
+  top: 11px;
+}
+
+.card-habits .days input[type="checkbox"]:checked+.today:after {
+  width: 16px;
+  height: 11px;
+  top: 11px;
 }

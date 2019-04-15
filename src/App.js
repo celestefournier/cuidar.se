@@ -1,25 +1,173 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import 'materialize-css/dist/css/materialize.min.css';
+import M from "materialize-css";
 import './App.css';
+import Navbar from './components/Header/Navbar';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <div className="card card-habits">
+          <div className="card-content">
+            <span className="card-title">Card Title</span>
+            <div className="days">
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">SEG</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">QUA</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">SEG</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">QUA</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">SEG</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday today">HOJE</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div className="card card-habits">
+          <div className="card-content">
+            <span className="card-title">Card Title</span>
+            <div className="days">
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">SEG</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">QUA</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">SEG</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">QUA</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">SEG</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday today">HOJE</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div className="card card-habits">
+          <div className="card-content">
+            <span className="card-title">Card Title</span>
+            <div className="days">
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">SEG</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">QUA</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">SEG</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">QUA</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">SEG</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday today">HOJE</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div className="card card-habits">
+          <div className="card-content">
+            <span className="card-title">Card Title</span>
+            <div className="days">
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">SEG</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">QUA</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">SEG</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">QUA</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">SEG</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday today">HOJE</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div className="card card-habits">
+          <div className="card-content">
+            <span className="card-title">Card Title</span>
+            <div className="days">
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">SEG</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">QUA</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">SEG</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">QUA</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday">SEG</span>
+              </label>
+              <label>
+                <input type="checkbox"/>
+                <span className="weekday today">HOJE</span>
+              </label>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
