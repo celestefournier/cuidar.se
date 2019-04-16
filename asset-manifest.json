@@ -1,15 +1,15 @@
 {
-  "main.css": "/teste-profite/static/css/main.335a06df.chunk.css",
-  "main.js": "/teste-profite/static/js/main.a62dd70c.chunk.js",
-  "main.js.map": "/teste-profite/static/js/main.a62dd70c.chunk.js.map",
-  "runtime~main.js": "/teste-profite/static/js/runtime~main.bed76870.js",
-  "runtime~main.js.map": "/teste-profite/static/js/runtime~main.bed76870.js.map",
-  "static/css/2.dbced309.chunk.css": "/teste-profite/static/css/2.dbced309.chunk.css",
-  "static/js/2.debbce3e.chunk.js": "/teste-profite/static/js/2.debbce3e.chunk.js",
-  "static/js/2.debbce3e.chunk.js.map": "/teste-profite/static/js/2.debbce3e.chunk.js.map",
-  "index.html": "/teste-profite/index.html",
-  "precache-manifest.e823cd6c2e86ba99fd2a1e9710df7ee6.js": "/teste-profite/precache-manifest.e823cd6c2e86ba99fd2a1e9710df7ee6.js",
-  "service-worker.js": "/teste-profite/service-worker.js",
-  "static/css/2.dbced309.chunk.css.map": "/teste-profite/static/css/2.dbced309.chunk.css.map",
-  "static/css/main.335a06df.chunk.css.map": "/teste-profite/static/css/main.335a06df.chunk.css.map"
+  "main.css": "/cuidar.se/static/css/main.335a06df.chunk.css",
+  "main.js": "/cuidar.se/static/js/main.1963cccd.chunk.js",
+  "main.js.map": "/cuidar.se/static/js/main.1963cccd.chunk.js.map",
+  "runtime~main.js": "/cuidar.se/static/js/runtime~main.c30b88df.js",
+  "runtime~main.js.map": "/cuidar.se/static/js/runtime~main.c30b88df.js.map",
+  "static/css/2.dbced309.chunk.css": "/cuidar.se/static/css/2.dbced309.chunk.css",
+  "static/js/2.debbce3e.chunk.js": "/cuidar.se/static/js/2.debbce3e.chunk.js",
+  "static/js/2.debbce3e.chunk.js.map": "/cuidar.se/static/js/2.debbce3e.chunk.js.map",
+  "index.html": "/cuidar.se/index.html",
+  "precache-manifest.3b6009cd75ff334e7698b2d70e347e8b.js": "/cuidar.se/precache-manifest.3b6009cd75ff334e7698b2d70e347e8b.js",
+  "service-worker.js": "/cuidar.se/service-worker.js",
+  "static/css/2.dbced309.chunk.css.map": "/cuidar.se/static/css/2.dbced309.chunk.css.map",
+  "static/css/main.335a06df.chunk.css.map": "/cuidar.se/static/css/main.335a06df.chunk.css.map"
 }

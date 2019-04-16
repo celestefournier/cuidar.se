@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/teste-profite/precache-manifest.e823cd6c2e86ba99fd2a1e9710df7ee6.js"
+  "/cuidar.se/precache-manifest.3b6009cd75ff334e7698b2d70e347e8b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/teste-profite/index.html", {
+workbox.routing.registerNavigationRoute("/cuidar.se/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
