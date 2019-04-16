@@ -2,7 +2,7 @@
   "name": "Cuidar.se",
   "version": "1.0.0",
   "author": "Gustavo Fournier",
-  "homepage": "https://gustavofournier.github.io/teste-profite/",
+  "homepage": "https://gustavofournier.github.io/cuidar.se/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "materialize-css": "^1.0.0-rc.2",
@@ -16,7 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
